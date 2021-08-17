@@ -13,9 +13,11 @@
         img {
             height: 100%;
             filter: grayscale(120);
+            opacity: .6;
 
             &:hover {
                 filter: grayscale(0);
+                opacity: initial;
             }
         }
     }
